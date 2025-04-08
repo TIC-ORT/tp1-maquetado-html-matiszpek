@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* HEADER */
+  header {
+    background-color: #d3d3d3;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #aad3d6;
+  }
+  
+  .ventanas {
+    width: 30px;
+    height: 20px;
+    background-color: #e36d56;
+  }
+  
+  .busqueda {
+    flex: 1;
+    margin: 0 1rem;
+    height: 20px;
+    background-color: #e6e6e6;
+  }
+  
+  /* HERO */
+  .hero {
+    display: flex;
+    background-color: #ffd479;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .hero .imagen {
+    width: 30%;
+    height: 150px;
+    background-color: #ffc75a;
+  }
+  
+  .hero .texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  
+  .hero .linea {
+    height: 12px;
+    background-color: white;
+  }
+  
+  .titulo {
+    width: 50%;
+    background-color: #ffc75a;
+  }
+  
+  .corta {
+    width: 40%;
+  }
+  
+  /* GRID CARDS */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    height: 120px;
+    border-radius: 4px;
+  }
+  
+  .card::before {
+    content: "";
+    display: block;
+    height: 50%;
+    margin: 10px;
+    border-radius: 4px;
+  }
+  
+  .card.azul {
+    background-color: #c5eff4;
+  }
+  
+  .card.azul::before {
+    background-color: #a3dde4;
+  }
+  
+  .card.rojo {
+    background-color: #ff9c7e;
+  }
+  
+  .card.rojo::before {
+    background-color: #ff7f5e;
+  }
+  
+  .card.amarillo {
+    background-color: #ffdf76;
+  }
+  
+  .card.amarillo::before {
+    background-color: #ffcb4e;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .footer-col {
+    width: 30%;
+    height: 80px;
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
