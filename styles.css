@@ -1,0 +1,38 @@
+header{
+    background-color: lightsalmon;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.cuadrado{
+    background-color: azure;
+    width: 150px;
+    height: 75%;
+}
+.cosas{
+    width: 40%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.titulo{
+    background-color: darkgray;
+    width: 50%;
+    height: 20%;
+}
+.texto{
+    background-color: white;
+    width: 85%;
+    height: 15%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
