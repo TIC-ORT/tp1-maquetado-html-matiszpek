@@ -50,19 +50,52 @@ header{
     width: 30%;
     height: 60%;
     align-items: center;
-    background-color: darkgray;
+/*     background-color: darkgray; */
 /*     border-radius: 4px; */
 }
-.select{
+.select1{
     background-color: lightblue;
     width: 45%;
     height:50%;
     display: flex;
     justify-content: center;
-}
-.inter{
-    background-color: azure;
-    width: 50%;
-    height: 50%;
+    align-items: center;
+    border-top: 30px rgb(117, 125, 133) solid;
 
+}
+.select2{
+    background-color: rgb(235, 76, 27);
+    width: 45%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 30px rgb(185, 78, 45) solid;
+}
+.select3{
+    background-color: rgb(240, 167, 31);
+    width: 45%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 30px rgb(189, 142, 56) solid;
+}
+
+.inter1{
+    background-color: rgb(149, 189, 207);
+    width: 65%;
+    height: 60%;
+}
+
+.inter2{
+    background-color: rgb(184, 42, 42);
+    width: 65%;
+    height: 60%;
+}
+
+.inter3{
+    background-color: rgb(201, 127, 43);
+    width: 65%;
+    height: 60%;
 }
